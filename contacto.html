@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Ian</title>
+
+    <meta name="description"
+        content="Contacto de Ian Gómez Kurgansky. Portfolio personal, análisis de sistemas, QA y desarrollo web.">
+    <meta name="author" content="Ian Gómez Kurgansky">
+    <meta name="theme-color" content="#09090B">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Libre+Caslon+Condensed:wght@400;500;600;700&family=Pixelify+Sans:wght@400..700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+</head>
+
+<body class="bodycontacto">
+    <div class="contenedor-linea">
+        <div class="linea-progreso"></div>
+    </div>
+    <header class="header-contacto">
+        <nav class="nav-contacto">
+            <a href="index.html" class="marca-contacto">
+                <span class="marca-eco">Ian</span>
+                <span class="marca-linea"></span>
+                <span class="marca-texto">Contacto</span>
+            </a>
+
+            <a href="index.html" class="volver-inicio">
+                Inicio
+            </a>
+        </nav>
+    </header>
+
+    <main class="main-contacto">
+
+        <section class="hero-contacto">
+            <div class="contacto-etiqueta encantamiento" data-texto="Disponible para conversar">
+                Disponible para conversar
+            </div>
+            <h1 class="titulo-contacto">
+                Toda construcción empieza con una <span>conexión.</span>
+            </h1>
+
+            <p class="texto-contacto">
+                Si tenés una idea, un proyecto, una duda o simplemente querés hablar sobre sistemas, tecnología o
+                desarrollo, podés escribirme por acá.
+            </p>
+        </section>
+
+        <section class="zona-contacto">
+
+            <aside class="panel-contacto">
+                <div class="panel-bloque">
+                    <span class="panel-titulo">Qué busco</span>
+                    <p>Conectar con personas, emprendimientos y proyectos que quieran construir soluciones claras,
+                        útiles y bien pensadas.</p>
+                </div>
+
+                <div class="panel-bloque">
+                    <span class="panel-titulo">Desde dónde</span>
+                    <p>Santa Fe, Argentina. Estudiante de Sistemas, QA y desarrollador web en formación.</p>
+                </div>
+
+                <div class="panel-bloque">
+                    <span class="panel-titulo">Respuesta</span>
+                    <p>Intento responder con claridad, respeto y ganas de entender bien cada idea antes de construir.
+                    </p>
+                </div>
+
+                <div class="redes-contacto">
+                    <a href="https://github.com/iangomezzky" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=iangomezkurgansky@gmail.com"
+                        target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/543425147213?text=Hola%20Ian,%20vi%20tu%20portfolio%20y%20quiero%20contactarte."
+                        target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </aside>
+
+            <section class="formcontacto-nuevo">
+                <div class="form-header">
+                    <span>Mensaje</span>
+                    <p>Completá los datos y elegí si querés enviarlo por email o WhatsApp.</p>
+                </div>
+
+                <div class="campo-contacto">
+                    <label for="emailContacto">Tu email</label>
+                    <input id="emailContacto" type="email" placeholder="tuemail@gmail.com">
+                </div>
+
+                <div class="campo-contacto">
+                    <label for="asuntoContacto">Asunto</label>
+                    <input id="asuntoContacto" type="text" placeholder="Consulta desde portfolio">
+                </div>
+
+                <div class="campo-contacto">
+                    <label for="mensajeContacto">Cuerpo</label>
+                    <textarea id="mensajeContacto" maxlength="500"
+                        placeholder="Hola Ian, vi tu portfolio y quería hablarte sobre..."></textarea>
+                </div>
+
+                <div class="contador-contacto">
+                    <span id="contadorMensaje">0</span>/500
+                </div>
+
+                <div class="acciones-contacto">
+                    <button type="button" id="enviarMail" class="btn-contacto btn-mail">
+                        Enviar por email
+                    </button>
+
+                    <button type="button" id="enviarWsp" class="btn-contacto btn-wsp">
+                        Enviar por WhatsApp
+                    </button>
+                </div>
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer class="footer-contacto">
+        <div class="footer-contacto-info">
+            <p>Desarrollado desde Santa Fe, Argentina.</p>
+
+            <div>
+                <a href="index.html">inicio</a>
+                <a href="https://github.com/iangomezzky" target="_blank">github</a>
+                <a href="https://wa.me/543425147213" target="_blank">whatsapp</a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="contact.html" class="language-toggle">
+        EN
+    </a>
+
+    <script src="jsportfolio.js"></script>
+</body>
+
+</html>
